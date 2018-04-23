@@ -1,0 +1,56 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/materialize.css">
+  <script src="js/jquery.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/main.js"></script>
+</head>
+<body>
+
+  <style>
+    @import url('https://fonts.googleapis.com/css?family=Montserrat');
+    html{
+      font-family: 'Montserrat', sans-serif;
+    }
+    img{
+      border: 20px solid #fff;
+    }
+    #ganador, #perdedor{
+      text-align: center;
+    }
+  </style>
+
+  <div class="container">
+    <br>
+    <br>
+    <h4 class="center">¡Este es un combate pokemón! </h4>
+    <br>
+    <div class="row">
+      <div class="col l6">
+        <img src="images/pikachu.gif" alt="">
+        <h3 class="center"> Pikachu</h3>
+      </div>
+      <div class="col l6">
+        <img src="images/meo.gif" alt="">
+        <h3 class="center"> Meowth</h3>
+      </div>
+    </div>
+    <button class="center-align btn" id="combate">¡Pelea!</button>
+    <div>
+      <h5 id="ganador"></h5>
+    </div>
+    <div >
+      <h5 id="perdedor">
+
+      </h5>
+    </div>
+
+  </div>
+
+
+</body>
+</html>
